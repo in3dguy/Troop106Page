@@ -4,6 +4,10 @@
 html
 {
     background-color: white;
+    background-image: url("/Assets/Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* the very top of the page containing the nav menu */
@@ -15,13 +19,14 @@ html
   z-index: 1000;
   background: royalblue;
   padding: $spacing-small;
+  box-shadow: 0px 0px 20px 0px black;
 
   /* entire contents of the nav menu */
   >div
   {
     max-width: 1000px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 
     /* logo */
     >img 
@@ -79,3 +84,37 @@ html
     }
   }
 }
+
+section
+{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article
+{
+  padding: $spacing-xsmall;
+  float: left;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+aside
+{
+  padding: $spacing-xsmall;
+  float: right;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test
+{
+background-color: rgba(255,255,255,.5);
+box-shadow: 5px 5px 5px black;
+padding: $spacing-xsmall;
+margin: $spacing-xsmall;
+}
+
