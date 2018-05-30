@@ -1,0 +1,6 @@
+<!--@ include header @-->
+<!--@ include navigation @-->
+
+        <h1>Header</h1>
+
+<!--@ include footer @-->

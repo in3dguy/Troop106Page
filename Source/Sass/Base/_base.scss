@@ -1,0 +1,12 @@
+@import "base.settings";
+@import "base.fonts";
+
+body
+{
+  line-height: $base-line-height;
+  font-weight: $font-weight-normal;
+  margin: 0;
+  padding: 0;
+  
+}
+

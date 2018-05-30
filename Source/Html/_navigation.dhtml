@@ -1,0 +1,30 @@
+      <!-- the top navigation menu -->
+      <nav class="top-menu-standard">
+
+        <div>
+          <!-- logo -->
+          <img src="Assets/Images/logo.png" alt="">
+
+          <!-- title -->
+          <div>
+            <h1>Troop 106</h1>
+            <h2>Manchester, NH</h2>
+          </div>
+
+          <!-- menu icon -->
+          <div class="menu-icon">
+            <a href="http://"><i class="ion-navicon-round"></i></a>
+          </div>
+          
+          <!-- menu items -->
+          <ul>
+            <li><a href="http://">home</a></li>
+            <li><a href="http://">adults</a></li>
+            <li><a href="http://">scouts</a></li>
+            <li><a href="http://">eagle scouts</a></li>
+            <li><a href="http://">calendar</a></li>
+            <li><a href="http://">pictures</a></li>
+          </ul>
+        </div>
+
+      </nav>

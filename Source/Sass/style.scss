@@ -1,0 +1,81 @@
+@import "ionicons";
+@import "base/base";
+
+html
+{
+    background-color: white;
+}
+
+/* the very top of the page containing the nav menu */
+.top-menu-standard 
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: royalblue;
+  padding: $spacing-small;
+
+  /* entire contents of the nav menu */
+  >div
+  {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* logo */
+    >img 
+    {
+      height: $spacing-xlarge;
+      width: auto;
+      border-right: 2px solid red;
+      float: left;
+      
+    }
+
+    /* title */
+    >img + div
+    {
+      margin-top: 0;
+      display: inline-block;
+      >h1,h2
+      {
+        margin: $spacing-xsmall;
+      }
+    }
+
+    /* menu icon */
+    >img + div + div
+    {
+      display: none;
+    }
+
+    /* links */
+    >ul
+    {
+      list-style: outside none none;
+      padding: 0;
+      margin: 0;
+      float: right;
+
+      >li
+      {
+        display: inline-block;
+        margin: $spacing-small;
+
+        >a
+        {
+          font-size: $font-size-normal;
+          padding: $spacing-xsmall;
+          display: list-item;
+          color: black;
+
+          &:hover
+          {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
