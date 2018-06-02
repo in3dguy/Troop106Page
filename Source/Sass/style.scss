@@ -17,9 +17,10 @@ html
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: royalblue;
   padding: $spacing-small;
-  box-shadow: 0px 0px 20px 0px black;
+  background-color: rgba(255,255,255,.5);
+  box-shadow: 5px 5px 5px black;
+  
 
   /* entire contents of the nav menu */
   >div
@@ -70,6 +71,7 @@ html
 
         >a
         {
+          font-weight: $font-weight-bold;
           font-size: $font-size-normal;
           padding: $spacing-xsmall;
           display: list-item;
@@ -87,6 +89,7 @@ html
 
 section
 {
+  margin: $spacing-xlarge * 1.5;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
