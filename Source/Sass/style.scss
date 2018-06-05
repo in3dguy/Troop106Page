@@ -1,8 +1,7 @@
 @import "ionicons";
 @import "base/base";
 
-html
-{
+html {
     background-color: white;
     background-image: url("/Assets/Images/background.jpg");
     background-size: cover;
@@ -11,8 +10,8 @@ html
 }
 
 /* the very top of the page containing the nav menu */
-.top-menu-standard 
-{
+.top-menu-standard {
+  display: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -87,37 +86,49 @@ html
   }
 }
 
-section
-{
-  margin: $spacing-xlarge * 1.5;
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.container {
+  padding: $spacing-small;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
-article
-{
-  padding: $spacing-xsmall;
-  float: left;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
+.grid {
+  font-size: 0;
 
-aside
-{
-  padding: $spacing-xsmall;
-  float: right;
-  max-width: 40%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .col {
+    vertical-align: top;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgba(255,255,255,.5);
+    box-sizing: border-box;
+    font-size: $font-size-normal;
+    display: inline-block;
+    width: 100%;
+    padding: $spacing-normal;
 
-.test
-{
-background-color: rgba(255,255,255,.5);
-box-shadow: 5px 5px 5px black;
-padding: $spacing-xsmall;
-margin: $spacing-xsmall;
+    &.sixty {
+      margin: $spacing-small;
+      width: 58%; 
+      border: 1px solid black;
+    }
+
+    &.forty {
+      margin: $spacing-small;
+      width: 37%;
+      border: 1px solid black;
+    }
+  }
 }
 
