@@ -13,7 +13,7 @@ body{
 }
 /* the very top of the page containing the nav menu */
 .top-menu-standard {
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 0;
   width: 100%;
@@ -88,10 +88,7 @@ body{
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
-  margin-top: $spacing-xsmall;
-}
+
 
 p {
   margin: 0;
@@ -131,6 +128,11 @@ p {
       border: 1px solid black;
       padding: $spacing-small;
       margin: $spacing-small;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+      margin-top: $spacing-xsmall;
     }
   }
 }
