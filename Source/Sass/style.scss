@@ -8,16 +8,18 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+body{
+  margin-top: $spacing-xxlarge;
+}
 /* the very top of the page containing the nav menu */
 .top-menu-standard {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
   padding: $spacing-small;
-  background-color: rgba(255,255,255,.5);
+  background-color: rgba(255,255,255,.75);
   box-shadow: 5px 5px 5px black;
   
 
@@ -88,11 +90,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  margin-top: 0;
-}
-
-.container {
-  padding: $spacing-small;
+  margin-top: $spacing-xsmall;
 }
 
 p {
@@ -110,24 +108,29 @@ p {
 
   .col {
     vertical-align: top;
-    box-shadow: 5px 5px 5px black;
-    background-color: rgba(255,255,255,.5);
     box-sizing: border-box;
     font-size: $font-size-normal;
     display: inline-block;
     width: 100%;
-    padding: $spacing-normal;
+    
 
     &.sixty {
-      margin: $spacing-small;
-      width: 58%; 
-      border: 1px solid black;
+      margin: 0;
+      width: 60%; 
+      
     }
 
     &.forty {
-      margin: $spacing-small;
-      width: 37%;
+      margin: 0;
+      width: 40%;
+    }
+
+    .content {
+      background-color: rgba(255,255,255,.75);
+      box-shadow: 5px 5px 5px black;
       border: 1px solid black;
+      padding: $spacing-small;
+      margin: $spacing-small;
     }
   }
 }
