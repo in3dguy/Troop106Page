@@ -1,0 +1,61 @@
+<!--@ include header @-->
+<!--@ include navigation @-->
+<div class="container"> <!-- a container to allow styling of a group of <div>'s -->
+  <div class="wrapper"> <!-- limits the width of the website -->
+    <div class="grid"> <!-- sets up the start of the grid layout -->
+      <div class="col"> <!-- 100% of the wrapper size -->
+        <div class="content">
+          <h1>Junior Assistant Scoutmasters</h1>
+				  <h3>Historian: Lukas R.</h3>
+				  <h3>Assistant Historian: Joshua H.</h3>
+        </div>
+      </div>
+
+      <div class="col"> <!-- 50% of the wrapper size -->
+        <div class="content">
+          <h1>The Fall Guys (Senior Patrol)</h21>
+          <h3>Senior Patrol Leader: Jaden B.</h3>
+          <h3>Assistant Senior Patrol Leader: Aaron A.</h3>
+        </div>
+      </div>
+
+      <div class="col fifty"> <!-- 50% of the wrapper size -->
+        <div class="content">
+          <h1>Nuclear Squirrels</h1>
+          <h3>Patrol Leader: Aiden V</h3>
+          <h3>Assistant Patrol Leader: Ryan R.</h3>
+          <h3>Scouts: Gavin D.</h3>
+        </div>
+      </div>
+
+      <div class="col fifty"> <!-- 50% of the wrapper size -->
+        <div class="content">
+          <h1>Ninja Scouts</h1>
+          <h3>Patrol Leader: Milo T.</h3>
+          <h3>Assistant Patrol Leader: Cameron M.</h3>
+          <h3>Scouts: Griffin W.</h3>
+        </div>
+      </div>
+
+      <div class="col fifty"> <!-- 50% of the wrapper size -->
+        <div class="content">
+          <h1>Rainbow Sharks</h1>
+          <h3>Patrol Leader: Mikah R.</h3>
+          <h3>Assistant Patrol Leader: Chris S.</h3>
+          <h3>Scouts: Omar C.</h3>
+        </div>
+      </div>
+
+      <div class="col fifty"> <!-- 50% of the wrapper size -->
+        <div class="content">
+          <h1>Narwhale Squirrels</h1>
+          <h3>Patrol Leader: Chase H.</h3>
+          <h3>Assistant Patrol Leader: Dylan F.</h3>
+          <h3>Scouts: Evan P., Riley H., Kaden G.</h3>
+        </div>
+      </div>
+
+    </div> <!-- grid closing -->
+  </div> <!-- wrapper closing -->
+</div> <!-- container closing -->
+<!--@ include footer @-->

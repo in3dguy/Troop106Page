@@ -18,12 +18,12 @@
           
           <!-- menu items -->
           <ul>
-            <li><a href="http://">home</a></li>
-            <li><a href="http://">adults</a></li>
-            <li><a href="http://">scouts</a></li>
-            <li><a href="http://">eagle scouts</a></li>
-            <li><a href="http://">calendar</a></li>
-            <li><a href="http://">pictures</a></li>
+            <li><a href="index.html">home</a></li>
+            <li><a href="adults.html">adults</a></li>
+            <li><a href="scouts.html">scouts</a></li>
+            <li><a href="eagleScouts.html">eagle scouts</a></li>
+            <li><a href="calendar.html">calendar</a></li>
+            <li><a href="pictures.html">pictures</a></li>
           </ul>
         </div>
 
