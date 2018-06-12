@@ -1,12 +1,29 @@
 @import "base.settings";
 @import "base.fonts";
+@import "ionicons";
+@import "base.nav";
+@import "base.grid";
 
-body
-{
-  line-height: $base-line-height;
-  font-weight: $font-weight-normal;
-  margin: 0;
-  padding: 0;
-  
+html {
+  background-color: white;
+  background-image: url("/Assets/Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+body {
+  line-height: $base-line-height;
+  font-weight: $font-weight-normal;
+  margin: $spacing-xxlarge 0 0 0; 
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin-top: $spacing-xsmall;
+}
+
+p {
+  margin: 0;
+}

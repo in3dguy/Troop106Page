@@ -1,0 +1,71 @@
+/* the very top of the page containing the nav menu */
+.top-menu-standard {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: $spacing-small;
+  background-color: rgba(255,255,255,.75);
+  box-shadow: 5px 5px 5px black;
+
+  /* entire contents of the nav menu */
+  >div {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* logo */
+    >img {
+      height: $spacing-xlarge;
+      width: auto;
+      border-right: 2px solid red;
+      float: left;
+    }
+
+    /* title */
+    >img + div {
+      margin-top: 0;
+      display: inline-block;
+
+      >h1,h2 {
+        margin: $spacing-xsmall;
+        text-align: left;
+      }
+    }
+
+    /* menu icon */
+    >img + div + div {
+      display: none;
+
+      @media only screen and (max-width: 900px) {
+        display: block;
+      }
+    }
+
+    /* links */
+    >ul {
+      list-style: outside none none;
+      padding: 0;
+      margin: 0;
+      float: right;
+
+      >li {
+        display: inline-block;
+        margin: $spacing-small;
+
+        >a {
+          font-weight: $font-weight-bold;
+          font-size: $font-size-normal;
+          padding: $spacing-xsmall;
+          display: list-item;
+          color: black;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

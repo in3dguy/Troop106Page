@@ -1,0 +1,39 @@
+.wrapper {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  font-size: 0;
+
+  .col {
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: $font-size-normal;
+    display: inline-block;
+    width: 100%;
+
+    &.fifty {
+      margin: 0;
+      width: 50%;
+    }
+    
+    &.sixty {
+      margin: 0;
+      width: 60%;
+    }
+
+    &.forty {
+      margin: 0;
+      width: 40%;
+    }
+
+    @media only screen and (max-width: 900px) {
+      &.fifty {
+        width: 100%;
+      }
+      
+    }
+  }
+}
