@@ -1,6 +1,5 @@
 /* the very top of the page containing the nav menu */
 .top-menu-standard {
-  /* display: none; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -8,14 +7,15 @@
   padding: $spacing-small;
   background-color: rgba(255,255,255,.75);
   box-shadow: 5px 5px 5px black;
+  box-sizing: border-box;
 
-  /* entire contents of the nav menu */
+/* entire contents of the nav menu */
   >div {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
-    /* logo */
+  /* logo */
     >img {
       height: $spacing-xlarge;
       width: auto;
@@ -23,7 +23,7 @@
       float: left;
     }
 
-    /* title */
+  /* title */
     >img + div {
       margin-top: 0;
       display: inline-block;
@@ -34,37 +34,52 @@
       }
     }
 
-    /* menu icon */
+  /* menu icon */
     >img + div + div {
       display: none;
 
+      >a {
+        color: black;
+
+        &:hover {
+          color: white;
+        }
+      }
+
       @media only screen and (max-width: 900px) {
         display: block;
+        float: right;    
+        padding: $spacing-small;    
+        font-size: $font-size-xlarge;        
       }
     }
 
-    /* links */
+  /* links */
     >ul {
       list-style: outside none none;
       padding: 0;
       margin: 0;
       float: right;
-
+      
       >li {
         display: inline-block;
-        margin: $spacing-small;
+        margin: 0;
 
         >a {
           font-weight: $font-weight-bold;
           font-size: $font-size-normal;
-          padding: $spacing-xsmall;
+          padding: $spacing-normal;
           display: list-item;
           color: black;
-
+          
           &:hover {
             color: white;
           }
         }
+      }
+      
+      @media only screen and (max-width: 900px) {
+        display: none;
       }
     }
   }
