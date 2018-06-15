@@ -1,4 +1,235 @@
 <!--@ include header @-->
 <!--@ include navigation @-->
 
+<!-- first section -->
+<div class="container"> <!-- allows styling of each section -->
+  <div class="wrapper"> <!-- limits the width of the website -->
+    <div class="grid"> <!-- sets up the start of the grid layout -->
+      <div class="col"> <!-- 100% of the wrapper size -->
+        <!-- everyone that earned Eagle in the troop -->
+        <div class="content"> <!-- a div to style the background, border and shadow box -->
+        <h2>Eagle Scouts</h2>
+          <table style="width:50%">
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Date Earned</th>
+            </tr>
+            <tr>
+              <td>Adam</td>
+              <td>Farrar</td>
+              <td>January 7, 2015</td>
+            </tr>
+            <tr>
+              <td>Marc</td>
+              <td>Fredette</td>
+              <td>January 2, 2013</td>
+            </tr>
+            <tr>
+              <td>Joseph</td>
+              <td>Arsenault</td>
+              <td>August 28, 2009</td>
+            </tr>
+            <tr>
+              <td>Jonathan</td>
+              <td>LeBlanc</td>
+              <td>August 5, 2009</td>
+            </tr>
+            <tr>
+              <td>William</td>
+              <td>Dreckmann</td>
+              <td>November 5, 2008</td>
+            </tr>
+            <tr>
+              <td>Johnathan</td>
+              <td>Arsenault</td>
+              <td>October 3, 2007</td>
+            </tr>
+            <tr>
+              <td>Brandon</td>
+              <td>Vesci</td>
+              <td>August 1, 2007</td>
+            </tr>
+            <tr>
+              <td>Nathan</td>
+              <td>Nault</td>
+              <td>December 6, 2006</td>
+            </tr>
+            <tr>
+              <td>Kevin</td>
+              <td>Urban</td>
+              <td>October 4, 2006</td>
+            </tr>
+            <tr>
+              <td>Paul</td>
+              <td>Urban</td>
+              <td>September 6, 2006</td>
+            </tr>
+            <tr>
+              <td>Jonathan</td>
+              <td>Vincent</td>
+              <td>March 1, 2006</td>
+            </tr>
+            <tr>
+              <td>Eric</td>
+              <td>LaBerge</td>
+              <td>December 7, 2005</td>
+            </tr>
+            <tr>
+              <td>Jason</td>
+              <td>Correia</td>
+              <td>April 7, 2005</td>
+            </tr>
+            <tr>
+              <td>Ben</td>
+              <td>Vincent</td>
+              <td>January 5, 2005</td>
+            </tr>
+            <tr>
+              <td>Alex</td>
+              <td>Leclerc</td>
+              <td>June 17, 2004</td>
+            </tr>
+            <tr>
+              <td>Nickolas</td>
+              <td>Levasseur</td>
+              <td>March 6, 2002</td>
+            </tr>
+            <tr>
+              <td>Ryan</td>
+              <td>Marcoux</td>
+              <td>January 2, 2002</td>
+            </tr>
+            <tr>
+              <td>Brian</td>
+              <td>Gallagher</td>
+              <td>November 11, 2001</td>
+            </tr>
+            <tr>
+              <td>Matthew</td>
+              <td>Bell</td>
+              <td>June 12, 2000</td>
+            </tr>
+            <tr>
+              <td>Damon</td>
+              <td>Roy</td>
+              <td>June 1, 2000</td>
+            </tr>
+            <tr>
+              <td>Jeffery</td>
+              <td>Lavoie</td>
+              <td>December 20, 1999</td>
+            </tr>
+            <tr>
+              <td>Stephen</td>
+              <td>Chavanelle</td>
+              <td>Febuary 15, 1999</td>
+            </tr>
+            <tr>
+              <td>Thomas</td>
+              <td>Paris</td>
+              <td>June 8, 1998</td>
+            </tr>
+            <tr>
+              <td>Tom</td>
+              <td>Burghardt</td>
+              <td>May 11, 1997</td>
+            </tr>
+            <tr>
+              <td>Michael</td>
+              <td>Girouard</td>
+              <td>June 7, 1995</td>
+            </tr>
+            <tr>
+              <td>Matthew</td>
+              <td>St. Cyr</td>
+              <td>May 12, 1995</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Macintosh</td>
+              <td>March 8, 1995</td>
+            </tr>
+            <tr>
+              <td>Marc</td>
+              <td>Bergeron</td>
+              <td>May 4, 1994</td>
+            </tr>
+            <tr>
+              <td>Brian</td>
+              <td>Pellerin</td>
+              <td>October 6, 1993</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Girouard</td>
+              <td>September 1, 1993</td>
+            </tr>
+            <tr>
+              <td>Michael</td>
+              <td>Marineau</td>
+              <td>Febuary 3, 1993</td>
+            </tr>
+            <tr>
+              <td>Jeffery</td>
+              <td>Provost</td>
+              <td>September 2, 1992</td>
+            </tr>
+            <tr>
+              <td>Frederick</td>
+              <td>Cross</td>
+              <td>June 3, 1992</td>
+            </tr>
+            <tr>
+              <td>Gerald</td>
+              <td>Douillard</td>
+              <td>Febuary 3, 1988</td>
+            </tr>
+            <tr>
+              <td>Alan</td>
+              <td>Lacerte</td>
+              <td>March 9, 1982</td>
+            </tr>
+            <tr>
+              <td>Verne</td>
+              <td>Larrivierre</td>
+              <td>January 8, 1982</td>
+            </tr>
+            <tr>
+              <td>Donald</td>
+              <td>Allard</td>
+              <td>March 30, 1979</td>
+            </tr>
+            <tr>
+              <td>Marc</td>
+              <td>Lacerte</td>
+              <td>October 27, 1978</td>
+            </tr>
+            <tr>
+              <td>Roland</td>
+              <td>Berube</td>
+              <td>July 5, 1976</td>
+            </tr>
+            <tr>
+              <td>Marc</td>
+              <td>Guillemette</td>
+              <td>September 25, 1975</td>
+            </tr>
+            <tr>
+              <td>Raymond</td>
+              <td>Levasseur</td>
+              <td>September 24, 1974</td>
+            </tr>
+            <tr>
+              <td>Jean</td>
+              <td>Levasseur</td>
+              <td>June 19, 1973</td>
+            </tr>
+          </table>
+        </div> <!-- closes the content -->
+      </div> <!-- closes the column  -->
+    </div> <!-- closes the grid -->
+  </div> <!-- closes the wrapper -->
+</div> <!-- closes the container -->
+
 <!--@ include footer @-->

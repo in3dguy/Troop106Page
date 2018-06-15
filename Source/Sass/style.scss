@@ -7,3 +7,19 @@
   padding: $spacing-small;
   margin: $spacing-small;
 }
+
+table, th, td {
+  padding: $spacing-small;
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
