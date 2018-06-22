@@ -7,7 +7,7 @@
     <div class="grid"> <!-- sets up the start of the grid layout -->
       <div class="col"> <!-- 100% of the wrapper size -->
         <!-- everyone that earned Eagle in the troop -->
-        <div class="content"> <!-- a div to style the background, border and shadow box -->
+        <div class="content center"> <!-- a div to style the background, border and shadow box -->
         <h2>Eagle Scouts</h2>
           <table style="width:50%">
             <tr>

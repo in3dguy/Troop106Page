@@ -17,9 +17,9 @@
 
   /* logo */
     >img {
+      /* padding-top: $spacing-xsmall; */
       height: $spacing-xlarge;
       width: auto;
-      border-right: 2px solid red;
       float: left;
     }
 
@@ -27,6 +27,7 @@
     >img + div {
       margin-top: 0;
       display: inline-block;
+      border-left: 2px solid red;
 
       >h1,h2 {
         margin: $spacing-xsmall;
