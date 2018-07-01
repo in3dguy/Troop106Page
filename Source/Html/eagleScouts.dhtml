@@ -1,5 +1,5 @@
 <!--@ include header @-->
-<!--@ include navigation @-->
+<!--@ include topMenu @-->
 
 <!-- first section -->
 <div class="container"> <!-- allows styling of each section -->

@@ -6,6 +6,12 @@
   border: 1px solid black;
   padding: $spacing-small;
   margin: $spacing-small;
+
+  @media only screen and (max-width: 900px) {
+    background-color: rgba(255,255,255,1);
+    box-shadow: none;
+    border: none;
+  }
 }
 
 table, th, td {

@@ -32,6 +32,7 @@
     @media only screen and (max-width: 900px) {
       &.fifty, &.forty, &.sixty {
         width: 100%;
+        border-bottom: 1px solid black;
       }      
     }
   }

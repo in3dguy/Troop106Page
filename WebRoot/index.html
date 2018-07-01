@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Troop 106 Manchester, NH</title>
         <link href="/Assets/Css/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/Assets/Js/core.js"></script>
+        <script type="text/javascript" src="/Assets/Js/topmenu.js"></script>
     </head>
     
     <body>
@@ -30,11 +32,14 @@
 
           <!-- menu icon -->
           <div class="menu-icon">
-            <a href="http://"><i class="ion-navicon-round"></i></a>
+            <a href="#topmenu">
+              <i class="ion-navicon-round">
+              </i>
+            </a>
           </div>
           
           <!-- menu items -->
-          <ul>
+          <ul data-topmenu-class="expanded">
             <li><a href="index.html">home</a></li>
             <li><a href="adults.html">adults</a></li>
             <li><a href="scouts.html">scouts</a></li>
@@ -56,9 +61,9 @@
               <div class="content"> <!-- a div to style the background, border and shadow box -->
                 <h2>Welcome to Troop 106</h2>
                 <p>Currently we meet every Monday from 6:30p-8:30p at Blessed Sacrment church in Manchester NH. Meetings start in September and run through June of the following year. We around 20 active scouts and about 10 active leaders. Our program consists of the the older scouts teaching the younger ones skills like First Aid, Wilderness Survival, Knot tying, Cooking, and others.</p>
-                <br>
+                
                 <p>Our Scoutmaster is Marc Bergeron. Marc earned his Eagle with our troop back in 1994. Our first Eagle scout was Jean Levasseur back in 1973, and our newest is Adam Farrar who earned his in 2015. We also have a few scouts currently working on completing their Eagle. Check out our page dedicated to our Eagle scouts at the link above for a more complete list of the troops Eagles.</p>
-                <br>
+                
                 <p>Our troop partisapates many activites. In Fall, the start our fiscal year, we try to be mostly outside for meetings with activities like geocaching, short hiking trips, and Conoeing. The winter is a busy time for us. Between Thanksgiving and Christmas we sell Christmas tree which is the main fundraiser we do. We also partisipate in the Klondike Derby, Scout Day at Pats Peak Ski area, and sometimes we plan a trip to Canada where we visited parlament and other fun places around Quebec. In the spring we start camping and hiking. The summer brings summer camp at Hidden Valley or Camp Bell, or maybe our own trip. In the past we've been to Gettysberg VA, Washington D.C., and Acadia National Park. The Committee is always open to new ideas and fun/educational trips to take.</p>
               </div> <!-- closes the content -->
             </div> <!-- closes the column  -->
@@ -67,17 +72,28 @@
 
             <!-- current and upcoming events on the google calendar in agenda format -->
               <div class="content">
-                <h2>Upcoming Events</h2>
+                <h2>Current Events</h2>
                   <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bsatroop106nh%40gmail.com&amp;color=%238C500B&amp;ctz=America%2FNew_York"
                     style="border:solid 1px #777"
                     width="99%"
-                    height="426"
+                    height="149"
                     frameborder="0"
                     scrolling="no">
                   </iframe>
+              <!-- a window into our little corner of facebook -->
+                  <div class="fb-page" 
+                  style="border:solid 1px #777"
+                  data-tabs="timeline,messages" 
+                  data-href="https://www.facebook.com/BsaTroop106Nh/" 
+                  data-small-header="true" 
+                  data-adapt-container-width="true" 
+                  data-height="303"
+                  data-width="354"
+                  data-hide-cover="false" 
+                  data-show-facepile="false">
+                  </div> <!-- closes facebook link -->                
               </div> <!-- closes content -->
             </div> <!-- closes col forty -->
-
           </div> <!-- closes the grid -->
         </div> <!-- closes the wrapper -->
       </div> <!-- closes the container -->
@@ -90,6 +106,9 @@
 
               <div class="content">
                 <h2>News</h2>
+                <p>Last Sunday (June, 24th) Jaden Breault and Aaron Alvarez set off on a quest to be better leaders. Have fun and learn lots at National Youth Leadership Training (NYLT). Good luck guys</p>
+                <br>
+                <img class="center" src="/Assets/Images/placeholder.jpg" alt="a placeholder for a picture of Aaron and Jaden" height="auto" width="450">
               </div> <!-- closes news content section -->
 
             </div> <!-- closes col fifty -->
@@ -98,17 +117,8 @@
 
             <!-- a window into our little corner of facebook -->
               <div class="content">
-                <h2>Facebook</h2>
-                <div class="fb-page" 
-                data-tabs="timeline,messages" 
-                data-href="https://www.facebook.com/BsaTroop106Nh/" 
-                data-small-header="true" 
-                data-adapt-container-width="true" 
-                data-height="305"
-                data-width="500"
-                data-hide-cover="false" 
-                data-show-facepile="false">
-                </div> <!-- closes facebook link -->
+                <h2>Knot of the Week</h2>
+                
               </div> <!-- closes facebook container -->
 
             </div> <!-- closes col fifty -->
@@ -117,22 +127,7 @@
       </div> <!-- closes container -->
 
 <!-- third section -->
-      <div class="container"> <!-- allows styling of each section -->
-        <div class="wrapper"> <!-- limits the width of the website -->        
-          <div class="grid">
-            <div class="col"> <!-- 100% of the wrapper size -->     
 
-              <div class="content">
-                <h2>Pictures</h2>
-                <div>
-                  https://www.facebook.com/media/set/?set=a.1905379456163675.1073741843.526556690712632&type=1&l=123964a9d4
-                </div>
-              </div> <!-- closes news content section -->
-
-            </div> <!-- closes col -->
-          </div> <!-- closes grid -->
-        </div> <!-- closes wrapper -->
-      </div> <!-- closes container -->
 
     </body>
 </html>

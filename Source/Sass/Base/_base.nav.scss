@@ -1,5 +1,6 @@
 /* the very top of the page containing the nav menu */
-.top-menu-standard {
+.top-menu-standard
+{
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,14 +10,22 @@
   box-shadow: 5px 5px 5px black;
   box-sizing: border-box;
 
+  @media only screen and (max-width: 900px) {
+    background-color: rgba(255,255,255,1);
+    box-shadow: none;
+    border-bottom: 1px solid black;
+  }
+
 /* entire contents of the nav menu */
-  >div {
+  >div
+  {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 
   /* logo */
-    >img {
+    >img
+    {
       /* padding-top: $spacing-xsmall; */
       height: $spacing-xlarge;
       width: auto;
@@ -24,30 +33,36 @@
     }
 
   /* title */
-    >img + div {
+    >img + div
+    {
       margin-top: 0;
       display: inline-block;
       border-left: 2px solid red;
 
-      >h1,h2 {
+      >h1,h2
+      {
         margin: $spacing-xsmall;
         text-align: left;
       }
     }
 
   /* menu icon */
-    >img + div + div {
+    >img + div + div
+    {
       display: none;
 
-      >a {
+      >a
+      {
         color: black;
 
-        &:hover {
-          color: white;
+        &:hover
+        {
+          color: rgb(128,128,128);
         }
       }
 
-      @media only screen and (max-width: 900px) {
+      @media only screen and (max-width: 900px)
+      {
         display: block;
         float: right;    
         padding: $spacing-small;    
@@ -56,31 +71,65 @@
     }
 
   /* links */
-    >ul {
+    >ul
+    {
       list-style: outside none none;
       padding: 0;
       margin: 0;
       float: right;
       
-      >li {
+      >li
+      {
         display: inline-block;
         margin: 0;
 
-        >a {
+        >a
+        {
           font-weight: $font-weight-bold;
           font-size: $font-size-normal;
           padding: $spacing-normal;
           display: list-item;
           color: black;
           
-          &:hover {
-            color: white;
+          &:hover
+          {
+            color: rgba(128,128,128,1);
           }
         }
       }
       
-      @media only screen and (max-width: 900px) {
-        display: none;
+      @media only screen and (max-width: 900px)
+      {
+        /* removes the float */
+        float: none;
+        
+        /* makes menu the full width */
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        /* makles the menu the full height of the screen */
+        height: 2000%;
+
+        /* moves the menu to the left off the screen by default */
+        transform: translate(-100%,0);
+        
+        /* show when .expanded class is added */
+        &.expanded
+        {
+          transform: translate(0,0)
+        }
+
+        /* make the background solid */
+        background: rgba(255,255,255,1);
+
+
+        /* changes the list form horizontal tho vertical and centers each <li> */
+        > li
+        {
+          width: 100%;
+          text-align: center;
+        }
       }
     }
   }
