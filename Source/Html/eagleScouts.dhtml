@@ -5,11 +5,11 @@
 <div class="container"> <!-- allows styling of each section -->
   <div class="wrapper"> <!-- limits the width of the website -->
     <div class="grid"> <!-- sets up the start of the grid layout -->
-      <div class="col"> <!-- 100% of the wrapper size -->
+      <div class="col sixty center"> <!-- 100% of the wrapper size -->
         <!-- everyone that earned Eagle in the troop -->
-        <div class="content center"> <!-- a div to style the background, border and shadow box -->
+        <div class="content"> <!-- a div to style the background, border and shadow box -->
         <h2>Eagle Scouts</h2>
-          <table style="width:50%">
+          <table style="width:100%">
             <tr>
               <th>Firstname</th>
               <th>Lastname</th>

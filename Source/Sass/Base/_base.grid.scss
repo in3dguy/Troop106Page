@@ -29,6 +29,11 @@
       width: 40%;
     }
 
+    &.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     @media only screen and (max-width: 900px) {
       &.fifty, &.forty, &.sixty {
         width: 100%;
